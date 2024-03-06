@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #655645; 
+    background-size: cover;
+    background-position: center;
+    font-family: "Tana Uncial SP", sans-serif;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+     margin-top: 70px;
+      font-weight: bold; 
+}
+
+
+.title {
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: white; 
+    text-shadow: 5px 5px 1.6px #3B1C0F;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.photo {
+    margin: 10px;
+     width: calc(25% - 20px); 
+}
+
+.photo img {
+    width: 270px; 
+    height: auto; 
+    border-radius: 15px; 
+}
+
+
+.photo p {
+    margin-top: 5px;
+    color: white; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-button {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  width: 50px;
+  height: 28px; 
+  background-color: #412B20;
+  color: #fff;
+  border: none;
+  border-radius: 15px; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+
+.home-button::after {
+  content: "\2302"; 
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.home-button:hover {
+  background-color: #9E7A56;
+}

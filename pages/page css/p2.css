@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Nunito;
+    font-weight: Bold;
+    background-color:#B4A896;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+}
+
+.container {
+
+    width: 100%; 
+}
+
+h1 {
+    font-family: "Tana Uncial SP", sans-serif;
+    font-size: 2em;
+    margin-bottom: 7px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin-right: 35px; 
+    margin-left: 35px;
+    border-radius: 15px;
+    max-width: 100%; 
+}
+
+p {
+    font-size: 1.3em;
+    font-stretch: ultra-condensed; 
+    max-width: 50%; 
+    margin-top: 0; 
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    padding-left: 350px; 
+}
+
+
+.btn {
+    font-family: "Tana Uncial SP", sans-serif; 
+    display: block;
+    padding: 15px 30px;
+    background-color: #412B20; 
+    color: #fff;
+    text-decoration: none;
+    font-weight: Regular 400;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 780px;
+    margin-bottom: 10px;
+    width: 150px; 
+    height: 30px; 
+    text-align: center; 
+    line-height: 17px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.8)
+    font-size: 1em;
+
+}
+
+.btn:hover {
+    background-color: #9E7A56; 
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 50px; 
+  height: 28px; 
+  background-color: #412B20;
+  color: #fff;
+  border: none;
+  border-radius: 15px; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+
+.back-button::after {
+  content: "\01F814"; 
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+}
+
+.back-button:hover {
+  background-color: #9E7A56;
+}
+
+.home-button {
+  position: fixed;
+  top: 20px;
+  left: 80px;
+  width: 50px;
+  height: 28px; 
+  background-color: #412B20;
+  color: #fff;
+  border: none;
+  border-radius: 15px; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+
+.home-button::after {
+  content: "\2302"; 
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.home-button:hover {
+  background-color: #9E7A56;
+}
